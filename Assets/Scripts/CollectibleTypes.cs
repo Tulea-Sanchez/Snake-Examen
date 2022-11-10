@@ -2,5 +2,6 @@
 public enum CollectibleTypes
 {
     COLLECTIBLE,
-    DESTROY
+    DESTROY,
+    OBSTACLE
 }

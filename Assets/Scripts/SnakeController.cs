@@ -49,6 +49,10 @@ public class SnakeController : MonoBehaviour
                 int currentScene = SceneManager.GetActiveScene().buildIndex;
                 SceneManager.LoadScene(currentScene);
                 break;
+            case "obstacle":
+                Points--;
+                pointText.text = string.Concat(Points.ToString("#0"),"/20");
+                break;
 
         
         }
